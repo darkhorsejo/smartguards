@@ -1,0 +1,534 @@
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative isolate overflow-hidden bg-gray-900 py-16 py-24 lg:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">  
+        
+      </div>
+   
+    <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+      <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+  </div>
+
+
+
+
+
+  <main class="relative isolate overflow-hidden bg-gray-900 py-16 py-24 lg:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">  
+        <!-- Navigation starts -->
+      <header></header>
+      <!-- Navigation ends -->
+
+      <!-- Top Banner -->
+      <div class="flex flex-col-reverse md:flex-row items-center bg-white">
+        <!-- left side -->
+        <div
+          class="text-black text-center md:text-left basis-1/2 px-8 md:mt-0 mt-8"
+        >
+          <h1 class="text-4xl font-semibold">Forging Guardians</h1>
+          <h1 class="text-6xl font-bold">Of Excellence</h1>
+          <p class="py-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            accusantium rem repudiandae sapiente, nemo est tenetur in cumque
+            iste et neque laborum, fugiat, corrupti nam deleniti tempore
+            dolorum? Labore, voluptatem?
+          </p>
+          <div class="mt-4"></div>
+          <div class="flex flex-row justify-center md:justify-start mb-8">
+            <img
+              class="w-[7rem] md:w-[10rem] mr-8"
+              src="/src/assets/icons/google_play.svg"
+              alt=""
+              srcset=""
+            />
+            <img
+              class="w-[7rem] md:w-[10rem]"
+              src="/src/assets/icons/app_store.svg"
+              alt=""
+              srcset=""
+            />
+            <div class="mb-4"></div>
+          </div>
+        </div>
+        <!-- left side ends -->
+        <!-- right side image -->
+        <img
+          class="basis-1/2 w-full h-[50rem]"
+          src="/src/assets/img/new/cropped/4.jpg"
+          alt=""
+          srcset=""
+        />
+        <!-- right side image ends -->
+      </div>
+      <!-- Top Banner ends  -->
+
+      <!-- After carousel -->
+      <div
+        class="text-white md:h-24 h-64 p-4 flex md:flex-row flex-col justify-center items-center"
+      >
+        <!-- first -->
+        <div class="border-l p-4">
+          <h3 class="text-xl font-semibold">
+            Discover hundreds of new security jobs
+          </h3>
+        </div>
+        <!-- first ends -->
+        <div class="m-2"></div>
+        <!-- second -->
+        <div class="border-l p-4">
+          <h3 class="text-xl font-semibold">
+            Discover hundreds of new security jobs
+          </h3>
+        </div>
+        <!-- second ends -->
+
+        <!--third -->
+        <div class="border-l p-4">
+          <h3 class="text-xl font-semibold">
+            Discover hundreds of new security jobs
+          </h3>
+        </div>
+        <!-- third ends -->
+      </div>
+      <!-- After carousel ends -->
+
+      <!-- about -->
+      <div
+        class="flex flex-col md:flex-row justify-center container-md mx-auto"
+      >
+        <!-- left -->
+        <div class="basis-1/4">
+          <img
+            src="/src/assets/img/new/cropped/1.jpg"
+            alt=""
+            srcset=""
+            class="md:h-[30rem] md:rounded-l-[0.6rem]"
+          />
+        </div>
+        <!-- left ends -->
+        <!-- right -->
+        <div
+          class="basis-1/2 text-black p-4 drop-shadow-lg bg-white md:rounded-r-[0.6rem]"
+        >
+          <h2 class="font-semibold text-2xl">
+            Your Sense Of Security Is Priceless. Our Security Services Are
+            Affordable.
+          </h2>
+          <div class="m-4"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+            hic vitae! Recusandae architecto omnis consequuntur aliquam numquam
+            modi! Corrupti quisquam quia distinctio, nemo quis magnam a sit
+            maxime tempore facilis.
+          </p>
+          <div class="m-4"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+            hic vitae! Recusandae architecto omnis consequuntur aliquam numquam
+            modi! Corrupti quisquam quia distinctio, nemo quis magnam a sit
+            maxime tempore facilis.
+          </p>
+          <div class="m-4"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+            hic vitae! Recusandae architecto omnis consequuntur aliquam numquam
+            modi! Corrupti quisquam quia distinctio, nemo quis magnam a sit
+            maxime tempore facilis.
+          </p>
+        </div>
+        <!-- right ends -->
+      </div>
+      <!-- about ends -->
+
+      <!-- services -->
+      <div class="grid md:grid-cols-4 grid-cols-1 gap-2 text-black">
+        <!-- left side -->
+        <div class="bg-white drop-shadow-lg p-4">
+          <h2 class="text-2xl md:text-6xl">Services</h2>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            omnis mollitia totam consequatur eligendi corporis quia ea iste enim
+            sapiente! Totam quam doloremque, dolore deserunt aut iste ut facere
+            veritatis?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            omnis mollitia totam consequatur eligendi corporis quia ea iste enim
+            sapiente! Totam quam doloremque, dolore deserunt aut iste ut facere
+            veritatis?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            omnis mollitia totam consequatur eligendi corporis quia ea iste enim
+            sapiente! Totam quam doloremque, dolore deserunt aut iste ut facere
+            veritatis?
+          </p>
+        </div>
+        <!-- left side ends -->
+        <!-- Carousel right side -->
+        <div class="owl-carousel owl-theme text-4xl col-span-3">
+           <!-- content -->
+          <div>           
+            <div>
+              <img class="" src="/src/assets/img/new/cropped/5.jpg" alt="" srcset="">
+              <div class="text-white bg-black p-2 ">
+                <h2 class="font-bold">E-Training</h2>
+              </div>
+            </div>           
+          </div>
+           <!-- content ends -->
+          <!-- content two -->
+          <div>          
+            <div>
+              <img class="" src="/src/assets/img/new/cropped/2.jpg" alt="" srcset="">
+              <div class="text-white bg-black p-2 ">
+                <h2 class="font-bold">E-Training</h2>
+              </div>
+            </div>
+          </div>
+          <!-- content two ends -->
+           <!-- content three -->
+           <div>          
+            <div>
+              <img class="" src="/src/assets/img/new/cropped/12.jpg" alt="" srcset="">
+              <div class="text-white bg-black p-2 ">
+                <h2 class="font-bold">E-Training</h2>
+              </div>
+            </div>
+          </div>
+          <!-- content three ends -->
+          <!-- content four -->
+          <div>          
+            <div>
+              <img class="" src="/src/assets/img/new/cropped/9.jpg" alt="" srcset="">
+              <div class="text-white bg-black p-2 ">
+                <h2 class="font-bold">E-Training</h2>
+              </div>
+            </div>
+          </div>
+          <!-- content four ends -->
+          <!-- content four -->
+          <div>          
+            <div>
+              <img class="" src="/src/assets/img/new/cropped/7.jpg" alt="" srcset="">
+              <div class="text-white bg-black p-2 ">
+                <h2 class="font-bold">E-Training</h2>
+              </div>
+            </div>
+          </div>
+          <!-- content four ends -->
+           <!-- content four -->
+           <div>          
+            <div>
+              <img class="" src="/src/assets/img/new/cropped/10.jpg" alt="" srcset="">
+              <div class="text-white bg-black p-2 ">
+                <h2 class="font-bold">E-Training</h2>
+              </div>
+            </div>
+          </div>
+          <!-- content four ends -->         
+        </div>
+        <!-- Carousel right side ends -->
+      </div>
+      <!-- services ends -->
+
+      <!-- banner test -->
+      <div class="relative isolate overflow-hidden bg-gray-900 p-16 lg:py-32 text-white text-center">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">  
+          <p class="text-4xl">We Provide Cost-Effective Security Solutions</p>
+          <p class="text-xl">Call 913-732-0633 For A Free Estimate</p>
+          <a
+            href="http://google.com"
+            class="bg-white text-black px-4 py-2 rounded-full"
+            >Contact us</a>
+          </div>
+       
+        <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+          <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+      </div>
+      <!-- banner test ends -->
+
+      <!-- Banner -->
+      <div class="text-white">
+        
+      </div>
+      <!-- Banner ends -->
+
+      <!-- left and right  -->
+      <div
+        class="grid md:grid-cols-2 grid-cols-1 md:gap-2 text-white container"
+      >
+        <!-- left side -->
+        <div>
+          <h3 class="text-4xl">We'll Protect Your Investment</h3>
+          <p>
+            We'll Protect Your Investment S.K. Security offers comprehensive
+            security services tailored to property owners in Kansas City, MO,
+            Kansas City, KS and surrounding areas. Our officers are highly
+            qualified to patrol…
+          </p>
+          <!-- list -->
+          <div class="grid grid-cols-2">
+            <ol class="list-disc">
+              <!-- list left side -->
+              <li>Banks</li>
+              <li>Hotels</li>
+              <li>Showrooms</li>
+              <li>Private estates</li>
+              <li>Shopping centers</li>
+              <li>Construction sites</li>
+            </ol>
+
+            <!-- list left side ends -->
+            <!-- list right side -->
+            <ul class="list-disc">
+              <li>Houses of worship</li>
+              <li>Corporate campuses</li>
+              <li>Colleges and universities</li>
+              <li>Condo and apartment buildings</li>
+              <li>Gated and retirement communities</li>
+              <li>Health care and distribution facilities</li>
+            </ul>
+            <!-- list right side ends -->
+          </div>
+          <!-- list ends -->
+          <p>Contact us today to discuss your security needs with our team.</p>
+        </div>
+        <!-- left side ends -->
+        <!-- right side image -->
+        <div>
+          <img src="/src/assets/img/16.jpg" alt="" srcset="" />
+        </div>
+        <!-- right side image ends -->
+      </div>
+      <!-- left and right ends -->
+
+      <!-- testimonials -->
+      <div class="grid grid-cols-2 text-white">
+        <!-- left side -->
+        <div class="h-[10rem] w-[15rem] bg-black p-2">
+          <h1 class="font-semibold text-2xl">Smart Hunters Guards</h1>
+          <p>"SAFETY, WITH A SMILE!"</p>
+        </div>
+        <!-- left side ends -->
+        <!-- carousel right side -->
+        <div class="owl-carousel owl-theme text-white">
+          <div class="item"><h4>1</h4></div>
+          <div class="item"><h4>2</h4></div>
+          <div class="item"><h4>3</h4></div>
+          <div class="item"><h4>4</h4></div>
+          <div class="item"><h4>5</h4></div>
+          <div class="item"><h4>6</h4></div>
+          <div class="item"><h4>7</h4></div>
+          <div class="item"><h4>8</h4></div>
+          <div class="item"><h4>9</h4></div>
+          <div class="item"><h4>10</h4></div>
+          <div class="item"><h4>11</h4></div>
+          <div class="item"><h4>12</h4></div>
+        </div>
+        <!-- carousel right side ends -->
+      </div>
+      <!-- testimonials ends -->
+      <div class="m-8"></div>
+      <!-- footer -->
+      <div
+        class="h-[20rem] bg-black grid md:grid-cols-3 grid-cols-1 gap-[3rem] text-white mt-8"
+      >
+        <!-- grid one -->
+        <div class="mt-16">
+          <h2 class="text-xl">The Firm</h2>
+          <p>
+            Sunborah Security, a Nigerian certified indigenous security company,
+            was founded by former Nigerian Military Personnel, who have carried
+            military precision, focus, and discipline into the private sector.
+            We are a growing company whose principles and operators bring years
+            of military and law enforcement experience to the private security
+            sector.
+          </p>
+        </div>
+        <!-- grid one ends -->
+
+        <!-- grid two -->
+        <div class="mt-16">
+          <h2 class="text-xl">Our Services</h2>
+          <ul class="list-disc">
+            <li><a href="">Security Services</a></li>
+            <li><a href="">Private Investigation</a></li>
+            <li><a href=""> Uniformed Security</a></li>
+            <li><a href="">Security Training</a></li>
+            <li><a href="">Security Consulting</a></li>
+          </ul>
+        </div>
+        <!-- grid two ends -->
+
+        <!-- grid three -->
+        <div class="mt-16">
+          <h2 class="text-xl">Contact Us</h2>
+          <p>29 Anthony Enahoro Street Utako Abuja -FCT, Nigeria</p>
+        </div>
+        <!-- grid three ends -->
+      </div>
+      <!-- footer ends -->
+      <!-- footer two -->
+      <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+      <div
+        class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32"
+      >
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div
+            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2"
+          >
+            <div class="max-w-xl lg:max-w-lg">
+              <h2
+                class="text-3xl font-bold tracking-tight text-white sm:text-4xl"
+              >
+                Subscribe to our newsletter.
+              </h2>
+              <p class="mt-4 text-lg leading-8 text-gray-300">
+                Nostrud amet eu ullamco nisi aute in ad minim nostrud
+                adipisicing velit quis. Duis tempor incididunt dolore.
+              </p>
+              <div class="mt-6 flex max-w-md gap-x-4">
+                <label for="email-address" class="sr-only">Email address</label>
+                <input
+                  id="email-address"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                  placeholder="Enter your email"
+                />
+                <button
+                  type="submit"
+                  class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <dl
+              class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2"
+            >
+              <div class="flex flex-col items-start">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <svg
+                    class="h-6 w-6 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
+                    />
+                  </svg>
+                </div>
+                <dt class="mt-4 font-semibold text-white">Weekly articles</dt>
+                <dd class="mt-2 leading-7 text-gray-400">
+                  Non laboris consequat cupidatat laborum magna. Eiusmod non
+                  irure cupidatat duis commodo amet.
+                </dd>
+              </div>
+              <div class="flex flex-col items-start">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <svg
+                    class="h-6 w-6 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10.05 4.575a1.575 1.575 0 10-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 013.15 0v1.5m-3.15 0l.075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 013.15 0V15M6.9 7.575a1.575 1.575 0 10-3.15 0v8.175a6.75 6.75 0 006.75 6.75h2.018a5.25 5.25 0 003.712-1.538l1.732-1.732a5.25 5.25 0 001.538-3.712l.003-2.024a.668.668 0 01.198-.471 1.575 1.575 0 10-2.228-2.228 3.818 3.818 0 00-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0116.35 15m.002 0h-.002"
+                    />
+                  </svg>
+                </div>
+                <dt class="mt-4 font-semibold text-white">No spam</dt>
+                <dd class="mt-2 leading-7 text-gray-400">
+                  Officia excepteur ullamco ut sint duis proident non
+                  adipisicing. Voluptate incididunt anim.
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div
+          class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
+          aria-hidden="true"
+        >
+          <div
+            class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
+        </div>
+      </div>
+
+      <!-- footer two ends -->
+      <div class="text-white text-center bg-black">
+        <h3>
+          © Sunborah Security. All Rights Reserved. Cyraworld Of Blueafric
+          Professional Services Designed It
+        </h3>
+      </div>
+
+      </div>
+   
+    <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+      <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+  </main>
+  
